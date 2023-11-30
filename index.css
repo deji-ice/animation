@@ -13,7 +13,7 @@ h1{
     margin-top: 2rem;
 }
 span{
-    text-decoration: underline;
+    text-decoration: dashed;
 }
 
 .ball {
@@ -25,6 +25,13 @@ span{
   animation: bounce 1s infinite;
 }
 
+.floor{
+    background-color: rgb(104, 66, 4);
+    height: 10rem;
+    width: 100vw;
+    position: absolute;
+    top: 28rem;
+}
 @keyframes bounce {
   0% {
     top: 19rem; left: 0%;
