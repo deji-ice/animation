@@ -23,6 +23,7 @@ span{
   border-radius: 100%;
   position: absolute;
   animation: bounce 1s infinite;
+  animation-timing-function: ease-in-out ;
 }
 
 .floor{
