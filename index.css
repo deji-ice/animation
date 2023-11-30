@@ -27,10 +27,11 @@ span{
 
 .floor{
     background-color: rgb(104, 66, 4);
-    height: 10rem;
+    height: 1000%;
     width: 100vw;
     position: absolute;
     top: 28rem;
+    right: -8px;
 }
 @keyframes bounce {
   0% {
